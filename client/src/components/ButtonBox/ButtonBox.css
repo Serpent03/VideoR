@@ -1,0 +1,14 @@
+.ButtonBox {
+    transition: all 0.2s;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0.2rem 0.5rem;
+    padding: 0.5rem;
+    color: #fff;
+}
+
+.ButtonBox:hover {
+    cursor: pointer;
+}
+/** @todo add in button animation on click */

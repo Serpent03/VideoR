@@ -1,0 +1,8 @@
+.TextBox {
+    font-size: 1.25em;
+    line-height: 2em;
+    text-align: "left";
+    font-family: "Open Sans";
+    font-weight: 500;
+    margin: 0.05rem;
+}

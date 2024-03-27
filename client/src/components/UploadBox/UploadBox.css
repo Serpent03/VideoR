@@ -1,0 +1,31 @@
+.UploadBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    width: fit-content;
+    background-color: #eee;
+    padding: 0.5em;
+}
+
+.UploadBox .ButtonBox {
+    margin: 0.5em 1em;
+}
+
+.UploadBox .inputField {
+    transition: all 0.2s;
+    margin: 0.5em 1em;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: #0000;
+}
+
+.UploadBox .inputField:hover {
+    border-bottom-color: #aaa;
+}
