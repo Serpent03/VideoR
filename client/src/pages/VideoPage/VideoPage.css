@@ -1,0 +1,19 @@
+.videoPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 10em;
+  max-width: 70em;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.17);
+}
+
+.videoArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
