@@ -29,6 +29,7 @@
 }
 
 .videoCard .actionArea {
+    transition: all 0.2s;
     font-size: 1em;
     background-color: #dcdcdc;
     width: 100%;
@@ -37,4 +38,8 @@
     border: none;
     cursor: pointer;
     font-family: 'Poppins';
+}
+
+.videoCard .actionArea:hover {
+    background-color: #838282;
 }

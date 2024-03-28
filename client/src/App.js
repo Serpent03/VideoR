@@ -1,11 +1,14 @@
-import TextBox from "./components/TextBox/TextBox"
-import "./App.css"
+import "./App.css";
 import VideoPage from "./pages/VideoPage/VideoPage";
 
 function App() {
-  return (<div className="App">
-    <VideoPage />
-  </div>);
+  /** @todo implement backend functions */
+  /** @todo implement react router */
+  return (
+    <div className="App">
+      <VideoPage />
+    </div>
+  );
 }
 
 export default App;
